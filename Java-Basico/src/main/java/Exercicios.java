@@ -37,5 +37,12 @@ public class Exercicios {
         System.out.printf("Temperatura em Celsius: %.2f°C%n", tempC);
 
         input.close();
+
+        //====================== exercicio 3 =========================
+        int sum = 0;
+        for (int i = 0; i<=100; i++){
+            sum += i % 2 == 0 ? i:0;
+        }
+        System.out.println(sum);
     }
 }
