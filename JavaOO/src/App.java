@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) {
+        /*
         // criando a conta usando (new) e importando a classe Conta
         Conta conta1 = new Conta();
         Conta conta2 = new Conta();
@@ -38,5 +39,23 @@ public class App {
         conta2.printBalance();
 
         System.out.println();
+
+
+        Fraction fracao1 = new Fraction();
+        Fraction fracao2 = new Fraction();
+
+        fracao1.set(2, 4);
+        fracao2.set(3, 4);
+
+        Fraction resultadof3 = fracao1.multiplcar(fracao2);
+
+        resultadof3.mostraResultado();
+        */
+
+        Watch w = new Watch();
+        w.setTime(12, 02, 50);
+
+        System.out.println(w.readHour() + " : " + w.readMinute() + " : " + w.readSecond());
+
     }
 }
